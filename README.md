@@ -18,3 +18,6 @@ TECNOLOGIAS UTILIZADAS
 *Tailwind css
 *Bootstrap icon
 \*React icon
+
+Deploy del proyecto 
+https://subtle-nasturtium-98244d.netlify.app/
