@@ -14,17 +14,17 @@ const Navbar = () => {
       <ul
         className={` ${
           menu ? "hidden" : "flex"
-        } flex-col justify-center items-center justify-around bg-gray-600 rounded absolute left-22 right-12 mx-auto top-20 w-72 h-72 font-mont text-sm text-white  cursor-pointer 
+        } flex-col justify-center items-center justify-around bg-gray-600 rounded absolute left-22 right-12 mx-auto top-20 w-72 h-72 font-mont text-sm text-white  
         
         
-          sm:flex sm:bg-transparent sm:text-gray-500 sm:flex-row sm:top-5 sm:h-full sm:right-52 sm:gap-10   `}
+          sm:flex sm:bg-transparent sm:text-gray-500 sm:flex-row sm:top-4 sm:h-full sm:right-52 sm:gap-10 `}
       >
-        <li className="hover:text-black">
+        <li className="hover:text-white relative cursor-pointer  after:content-[''] after:bg-white after:w-0 after:h-1 after:absolute after:top-[20px] after:left-0 after:duration-75 hover:after:w-full sm:after:bg-black sm:hover:text-black">
           <Link to="Inicio" spy={true} smooth={true} offset={50} duration={500}>
             INICIO
           </Link>
         </li>
-        <li className="hover:text-black">
+        <li className="hover:text-white relative cursor-pointer  after:content-[''] after:bg-white after:w-0 after:h-1 after:absolute after:top-[20px] after:left-0 after:duration-75 hover:after:w-full sm:after:bg-black sm:hover:text-black">
           <Link
             to="Sobremi"
             spy={true}
@@ -35,7 +35,7 @@ const Navbar = () => {
             SOBRE
           </Link>
         </li>
-        <li className="hover:text-black">
+        <li className="hover:text-white relative cursor-pointer  after:content-[''] after:bg-white after:w-0 after:h-1 after:absolute after:top-[20px] after:left-0 after:duration-75 hover:after:w-full sm:after:bg-black sm:hover:text-black">
           <Link
             to="Porfolio"
             spy={true}
@@ -46,7 +46,7 @@ const Navbar = () => {
             PORFOLIO
           </Link>
         </li>
-        <li className="hover:text-black">
+        <li className="hover:text-white relative cursor-pointer  after:content-[''] after:bg-white after:w-0 after:h-1 after:absolute after:top-[20px] after:left-0 after:duration-75 hover:after:w-full sm:after:bg-black sm:hover:text-black">
           <Link
             to="Servicios"
             spy={true}
@@ -57,7 +57,7 @@ const Navbar = () => {
             SERVICIOS
           </Link>
         </li>
-        <li className="hover:text-black">
+        <li className="hover:text-white relative cursor-pointer  after:content-[''] after:bg-white after:w-0 after:h-1 after:absolute after:top-[20px] after:left-0 after:duration-75 hover:after:w-full sm:after:bg-black sm:hover:text-black">
           <Link
             to="Contactos"
             spy={true}

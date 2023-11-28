@@ -5,6 +5,7 @@ import { Miexperiencia } from "./Components/Miexperiencia/Miexperiencia";
 import { Miporfolio } from "./Components/Miporfolio/Miporfolio";
 import { Misservicios } from "./Components/Misservicios/Misservicios";
 import { Contactos } from "./Components/Contactos/Contactos";
+import { Footer } from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Miporfolio />
       <Misservicios />
       <Contactos />
+      <Footer/>
     </>
   );
 }
